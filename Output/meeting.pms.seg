@@ -1,0 +1,8 @@
+;; cluster iS 
+BlabTab 1 0 1084 U U U iS [ initial = 0 ]
+BlabTab 1 1400 1162 U U U iS [ initial = 0 ]
+BlabTab 1 2939 913 U U U iS [ initial = 0 ]
+;; cluster j 
+BlabTab 1 1084 316 U U U j [ initial = 0 ]
+BlabTab 1 2562 377 U U U j [ initial = 0 ]
+BlabTab 1 3852 490 U U U j [ initial = 0 ]

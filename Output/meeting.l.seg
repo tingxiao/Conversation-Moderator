@@ -1,0 +1,14 @@
+;; cluster S0 
+BlabTab 1 0 268 U U U S0
+;; cluster S1 
+BlabTab 1 268 784 U U U S1
+;; cluster S2 
+BlabTab 1 1052 404 U U U S2
+;; cluster S3 
+BlabTab 1 1456 1103 U U U S3
+;; cluster S5 
+BlabTab 1 2559 440 U U U S5
+;; cluster S6 
+BlabTab 1 2999 770 U U U S6
+;; cluster S7 
+BlabTab 1 3769 572 U U U S7

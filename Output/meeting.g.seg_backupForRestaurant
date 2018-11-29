@@ -1,0 +1,5 @@
+;; cluster S0 
+BlabTab 1 0 248 U U U S0 [ initial = 0 ]
+BlabTab 1 10059 217 U U U S0 [ initial = 0 ]
+;; cluster S1 
+BlabTab 1 248 9817 U U U S1 [ initial = 0 ]

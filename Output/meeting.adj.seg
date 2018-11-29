@@ -1,0 +1,8 @@
+;; cluster S1 
+BlabTab 1 0 1044 U U U S1 [ initial = 0 ]
+BlabTab 1 1478 1063 U U U S1 [ initial = 0 ]
+BlabTab 1 3018 805 U U U S1 [ initial = 0 ]
+;; cluster S2 
+BlabTab 1 1044 434 U U U S2 [ initial = 0 ]
+BlabTab 1 2541 477 U U U S2 [ initial = 0 ]
+BlabTab 1 3809 532 U U U S2 [ initial = 0 ]
