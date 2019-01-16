@@ -7,7 +7,8 @@ This app is a prototype effort by students working with Dr. Ting Xiao in the Loy
 ## General Installation
 This app was designed in Android Studio and is optimized for phones Android phones 5.0 and up. To install this app, go to Google Play Store and search Conversation Moderator. After being prompt to install click on the app and view the tutorial or read below for use.
 
-## For users
+## User's Guide
+https://github.com/tingxiao/Conversation-Moderator/blob/master/documentation/User%20Guide.pdf
 
 ## Main Objective
 Isn’t it disturbing when people start to cut you off in a conversation? Wouldn’t be good if managers could have a tool 
@@ -46,9 +47,8 @@ git clone https://github.com/tingxiao/Conversation-Moderator.git
 Then, you can use the Android Studio tool to open the project, following:
 
 File -> Open Project -> Select the folder you cloned (downloaded) the project
- 
-## Thanks
-We would like to thank the Loyola University for this amazing opportunity, the CAPES for the funding through the BSMP program represented by IIE. We would like to thank the Professor Mark Albert for the amazing support.
+
+More at https://github.com/tingxiao/Conversation-Moderator/blob/master/documentation/Installation%20Guide.pdf
 
 ## References
 - LIUM Speaker Diarization Toolkit:
