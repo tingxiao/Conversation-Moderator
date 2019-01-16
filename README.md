@@ -1,19 +1,21 @@
 # Conversation Moderator 
-By: Noel Castillo and Albert Du
+
+This app analyzes the conversation directly your device to identify who is speaking and when. It does this with no effort on your part by using modern machine learning principles applied to the sounds recorded from your microphone. The analysis report after a conversation provides the total time each person spoke. Also, a scrollable piano plot is provided to observe the dynamics between speakers throughout the conversation.
+
+This app is a prototype effort by students working with Dr. Ting Xiao in the Loyola University Chicago Computer Science department. It primarily relies on the LIUM package to diarize the audio signal. Initial development was performed by Marcos Leal and Edgard Oliveira with later improvements by Albert Du and final development and deployment by Rejoice Jebamalaidass.
 
 ## General Installation
-This app was designed in Android Studio version 2.3.2.0 using API level 23. As such, this app is optimized for phones Android phones built after the release Android Gingerbread SDK on December 6 2010. To install this app, click on this link xyzabc.apk. After being prompt to install click on the app and view the tutorial or read below for use.
+This app was designed in Android Studio and is optimized for phones Android phones 5.0 and up. To install this app, go to Google Play Store and search Conversation Moderator. After being prompt to install click on the app and view the tutorial or read below for use.
 
 ## For users
 
 ## Main Objective
 Isn’t it disturbing when people start to cut you off in a conversation? Wouldn’t be good if managers could have a tool 
 keep tracking tons of presentations they need to watch? What about developing a tool to support Speech Pathologists in 
-detecting and treating common speech disorders? Having those thoughts in mind we have decided to build a tool in our 
-time at the CS Summer Program Research at Loyola University. For practical reasons we choose to build an Android application.
+detecting and treating common speech disorders? Having those thoughts in mind we have decided to build a tool as our independent research project at Loyola University. For practical reasons we choose to build an Android application.
 
 ## Solution 
-We created an Android app which can record audio and determine who is speaking during the recording and when. Our app uses K-means clustering on short sound clips for preliminary speaker segmentation. Then the clusters are used as observations in a Hidden Markov Model (HMM) to estimate the speaker of each clip and assure continuity between clips. This was done using the LIUM  open source library. Afterwards, the order and timing of each speaker is shown using a piano roll plot using the MPchart open source library. The eventual goal of this work is to produce an app which can indicate when a person has spoken too much, to moderate a group conversation.
+We created an Android app which can record audio and determine who is speaking during the recording and when. Our app uses Gaussian Mixture models clustering on short sound clips for preliminary speaker segmentation. Then the clusters are used as observations in a Hidden Markov Model (HMM) to estimate the speaker of each clip and assure continuity between clips. This was done using the LIUM  open source library. Afterwards, the order and timing of each speaker is shown using a piano roll plot using the MPchart open source library. The eventual goal of this work is to produce an app which can indicate when a person has spoken too much, to moderate a group conversation.
 
 ## Tools
 This issue relates to a certain topic in the speech recognition study: Speaker Diarization. This subject focus in answer 
@@ -39,16 +41,11 @@ Android Studio is required to run and use app.
 First clone this project from this repository downloading the zip or use the command:
 
 ```cmd
-git clone https://github.com/marcossilva/convMod.git
+git clone https://github.com/tingxiao/Conversation-Moderator.git
 ```
 Then, you can use the Android Studio tool to open the project, following:
 
 File -> Open Project -> Select the folder you cloned (downloaded) the project
-
-You can also use the Android Studio feature to clone the project following the instructions:
-[Import GitHub Project](https://maxrohde.com/2014/08/18/import-github-project-to-android-studio)
-
-There were some issues with the master branch so currently the most up to date version of the application can be found under the evenSpace branch.
  
 ## Thanks
 We would like to thank the Loyola University for this amazing opportunity, the CAPES for the funding through the BSMP program represented by IIE. We would like to thank the Professor Mark Albert for the amazing support.
